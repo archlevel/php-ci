@@ -89,11 +89,17 @@ class Hello_model extends CI_Model {
 日志开启
 调整值
  ```
+ 
  |	0 = Disables logging, Error logging TURNED OFF
+ 
  |	1 = Error Messages (including PHP errors)
+ 
  |	2 = Debug Messages
+ 
  |	3 = Informational Messages
+ 
  |	4 = All Messages
+ 
  ```
 $config['log_threshold'] = 0;
 
