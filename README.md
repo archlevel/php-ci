@@ -10,7 +10,7 @@ MY_Service.php
 
 在web目录下创建proxys目录，导入Default_proxy.php
 
-使用
+使用文档
 
 controllers层使用【拦截service层方法】
 
