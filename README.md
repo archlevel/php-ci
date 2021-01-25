@@ -6,13 +6,13 @@ MY_Loader.php
 MY_Proxy.php
 MY_Service.php
 
-在web目录下创建service目录，用于存储XXX_service.php[service的实现]
+在web目录下创建services目录，用于存储XXX_service.php[service的实现]
 
-在web目录下创建proxy目录，导入Default_proxy.php
+在web目录下创建proxys目录，导入Default_proxy.php
 
 使用
 
-controller层使用【拦截service层方法】
+controllers层使用【拦截service层方法】
 
 ```
 <?php
@@ -37,7 +37,7 @@ class Hello extends IAuth{
 }
 ```
 
-service层【拦截model层方法】
+services层【拦截model层方法】
 
 ```
 <?php
@@ -64,7 +64,7 @@ class Hello_service extends G_service
 
 ```
 
-model层[拦截db驱动层sql语句]
+models层[拦截db驱动层sql语句]
 
 ```
 <?php
