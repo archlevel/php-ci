@@ -1,5 +1,7 @@
 # php-ci
 
+AOP实现机制
+
 在web/core目录导入
 
 MY_Loader.php
